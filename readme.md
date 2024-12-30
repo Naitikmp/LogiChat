@@ -49,10 +49,10 @@ LogiChat uses Retrieval-Augmented Generation (RAG) to combine LLM capabilities w
    python app.py
    ```
 
-### Frontend Setup
-1. Navigate to the `frontend` directory:
+### client Setup
+1. Navigate to the `client` directory:
    ```bash
-   cd ../frontend
+   cd ../client
    ```
 
 2. Install dependencies:
@@ -66,8 +66,8 @@ LogiChat uses Retrieval-Augmented Generation (RAG) to combine LLM capabilities w
    ```
 
 ## Usage
-1. Start the backend and frontend servers.
-2. Open your browser and navigate to the Next.js frontend (typically at `http://localhost:3000`).
+1. Start the backend and client servers.
+2. Open your browser and navigate to the Next.js client (typically at `http://localhost:3000`).
 3. Upload a document to begin a conversation.
 4. Interact with the chatbot using natural language queries.
 
@@ -78,7 +78,7 @@ LogiChat/
 │   ├── app.py                 # Main Flask application
 │   ├── requirements.txt       # Backend dependencies
 │   └── .env                   # Environment variables
-├── frontend/
+├── client/
 │   ├── pages/                 # Next.js pages
 │   ├── components/            # Reusable UI components
 │   ├── public/                # Static assets

@@ -29,11 +29,17 @@ LogiChat uses Retrieval-Augmented Generation (RAG) to combine LLM capabilities w
   ```dotenv
   OPENAI_API_KEY=your_openai_api_key
   ```
+  ```dotenv
+  PINECONE_API_KEY=your_pine_cone_vector_api_key
+  ```
+  ```dotenv
+  PINECONE_INDEX_NAME=your_pine_cone_vector_index_name
+  ```
 
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LogiChat.git
+   git clone https://github.com/naitikmp/LogiChat.git
    cd LogiChat/backend
    ```
 

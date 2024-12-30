@@ -1,0 +1,13 @@
+# Next.js Frontend
+.next/
+node_modules/
+
+# Flask Backend
+instance/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Python Virtual Environment
+venv/

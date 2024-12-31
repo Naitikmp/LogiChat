@@ -6,7 +6,7 @@ LogiChat is a Retrieval-Augmented Generation (RAG) based chatbot application pow
 - **Document Uploads**: Users can upload documents in various formats.
 - **Intelligent Conversations**: The chatbot generates contextually accurate responses based on user-provided data.
 - **Powered by LLMs**: Leverages advanced LLMs for natural language understanding and generation.
-- **Secure and Private**: Your documents are used solely for generating responses and are stored securely.
+- **Secure and Private**: Your documents are used solely for generating responses and are stored securely.(Not done to store the responses)
 
 ## Tech Stack
 - **Backend**: Flask, LangChain, PineConeVector, OpenAI API

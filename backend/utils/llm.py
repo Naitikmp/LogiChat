@@ -9,7 +9,10 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 load_dotenv()
 
 # Initialise the llm
-llm = ChatOpenAI(model="gpt-4o-mini")
+llm = ChatOpenAI(
+                model="gpt-4o-mini",
+                openai_api_key=os.getenv("OPENAI_API_KEY")
+                )
 
 # Load PineCone vector DB
 embeddings = OpenAIEmbeddings(openai_api_type=os.environ.get("OPENAI_API_KEY"))

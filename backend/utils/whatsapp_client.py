@@ -42,7 +42,6 @@ class WhatsAppClient:
     def verify_webhook(self, mode, token, challenge):
         """Verify webhook endpoint for WhatsApp"""
         verify_token = os.getenv("WHATSAPP_VERIFY_TOKEN")
-        
         if mode and token:
             if mode == "subscribe" and token == verify_token:
                 return True, challenge

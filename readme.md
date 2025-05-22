@@ -81,6 +81,7 @@ LogiChat uses Retrieval-Augmented Generation (RAG) to combine LLM capabilities w
 ```plaintext
 LogiChat/
 ├── backend/
+│   ├── utils.py               # Utility files for the application
 │   ├── app.py                 # Main Flask application
 │   ├── requirements.txt       # Backend dependencies
 │   └── .env                   # Environment variables
